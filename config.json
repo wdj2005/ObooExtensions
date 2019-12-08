@@ -1,0 +1,45 @@
+{
+  "config": {
+    "hourMode": 12,
+    "dayNightLed": true,
+    "location": "Bristol,GB",
+    "brightnessTime": 1,
+    "brightnessInfo": 1,
+    "tz": "Europe/London",
+    "timezone": "GMT0BST,M3.5.0/1,M10.5.0",
+    "autoTimeZone": false
+  },
+  "cards": {
+    "0": {
+      "name": "weather",
+      "enabled": true,
+      "id": 0,
+      "tempUnit": "celsius",
+      "card": "Weather",
+      "location": "Cheltenham,GB",
+      "distanceUnit": "imperial"
+    },
+    "1": {
+      "name": "timer",
+      "enabled": true
+    },
+    "2": {
+      "name": "music",
+      "enabled": true
+    },
+    "3": {
+      "name": "calendar",
+      "enabled": true
+    },
+    "4": {                                 
+      "name": "worldclock",                   
+      "enabled": true,                     
+      "id": 4,                                            
+      "card": "World Clock",                   
+      "locOne": "Hong Kong,HK",
+      "offsetOne": 8,         
+      "locTwo": "San Francisco,USA",
+      "offsetTwo": -8 
+    }
+  }
+}
