@@ -30,8 +30,9 @@ function getFormattedTime (offSet1,offSet2) {
     var date = new Date()
 
     return {
-        locOneTime: zeroPad(date.getHours() + offSet1,2) + ':' + zeroPad(date.getMinutes(),2),
-        locTwoTime: zeroPad(date.getHours() + offSet2,2) + ':' + zeroPad(date.getMinutes(),2)
+        locOneTime: zeroPad((date.getHours() + offSet1) % 24,2) + ':' + zeroPad(date.getMinutes(),2),
+        locTwoTime: zeroPad((date.getHours() + offSet2) % 24,2) + ':' + zeroPad(date.getMinutes(),2)
+ 
     }
 }
 
