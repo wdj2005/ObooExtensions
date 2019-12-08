@@ -9,3 +9,5 @@ It presents two more timezones, configured manually in /etc/config.json
 
 Copy the worldclock.js file to /usr/bin/js/
 Examine the config.json file and update your /etc/contrib.json accordingly
+
+Update your /etc/init.d/oboo-cards file accordingly to auto start the card
